@@ -1,0 +1,214 @@
+
+.background {
+    background: url('https://www.vishvena.com/assets/images/art/bg3.webp') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+}
+.text {
+    position: relative;
+    z-index: 2;
+    font-family: 'Arial', sans-serif;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+        
+        @media (min-width: 768px) {
+            .col-md-5 {
+                width: 45%;
+            }
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        footer {
+            background-color: #0b0b5c;
+            padding: 40px 20px;
+        }
+        
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+            margin: 20px 10px;
+        }
+        
+        .footer-section h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .footer-section p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .footer-section a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section.newsletter input {
+            padding: 10px;
+            width: 70%;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            background-color:#111163;
+        }
+        
+        .footer-section.newsletter button {
+            padding: 10px 20px;
+            background-color: #7d7dfb;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 20px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        
+        .footer-section.newsletter button:hover {
+            background-color: #5b5bcf;
+        }
+        
+        .footer-section.newsletter .newsletter-input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .copyright {
+            text-align: center;
+            flex: 100%;
+            margin-top: 20px;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap; 
+            padding: 20px;
+            background-color: #f7f8fc;
+            text-align: center;
+          }
+          
+
+          .contact-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            max-width: 300px;
+            color: #333; 
+            font-size: 16px;
+            height:250px;
+          }
+          
+        
+          .icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+          }
+          
+          .contact-card a {
+            text-decoration: none;
+            color: #555;
+            transition: color 0.3s ease;
+          }
+          
+          .contact-card a:hover {
+            color: #007bff; 
+          }
+          
+          
+          @media (max-width: 768px) {
+            .contact-container {
+              flex-direction: column;
+              padding: 10px;
+            }
+          }
+        body {
+            background-color: #f8f9fb; 
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .form-control {
+            background-color: #f2f2f2; 
+            border:none;
+            font-size: 1rem;
+            color: #333333;;
+        }
+        
+
+        ::placeholder {
+            color: #888888;
+            font-size: 0.9rem;
+        }
+        
+        .btn-primary {
+            background-color: #8a8bc4; 
+            border: none;
+            font-weight: bold;
+            height:50px;
+            color: #ffffff;
+        }
+        
+        .btn-primary:hover {
+            background-color: #6d6ea4;
+        }
+
